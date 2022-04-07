@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Alegray";
+    src: url('../fonts/AlegreyaSans-Light.ttf');
+}
+
+* {
+    font-family: Alegray, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E9E8E6;
+}
+/* Header */
+header {
+    position: sticky; 
+    top: 0;
+    /* nav pas caché pendant le scroll*/
+    z-index: 10;
+}
+/* Elements de la nav */
+nav {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    justify-content: start;
+    align-items: center;
+
+}
+.menu {
+    padding: 2vw 1vw;
+
+}
+
+h2 {
+    font-size: 2vh;
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+
+/* Image à gauche écran */
+#fond {
+    position: fixed; /* pour que l'img gauche ne bouge pas */
+    top: 0;
+    left: 0;
+}
+
+#fond img {
+    width: 100%;
+    height: 80vw;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+
+}
+
+/* Présentation */
+.presentation {
+    padding: 5vw;
+}
+
+.presentation img {
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+/* Signature */
+
+#signature {
+    text-align: right;
+}
+#signature img {
+    width: 200px;
+
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+    header {
+        background-color: #E9E8E6;
+    }
+    nav {
+        grid-template-columns: 40% 1fr;
+    }
+    main {
+        grid-template-columns: 1fr;
+    }
+    #fond {
+        position: static;
+        height: auto;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #fond img{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+    #signature {
+        text-align: center;
+    }
+}
